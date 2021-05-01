@@ -10,8 +10,8 @@ There are two datasets in this case study. 'Emails sent' dataset contains the do
 
 Key | Understanding
 ----- | -----
-name_first | First name of doctor
-name_last | Last name of doctor
+first_name | First name of doctor
+last_name | Last name of doctor
 name_middle | Middle name of doctor
 mail_sent_date | Date on which email stating the fine was issued
 office | Office where research was conducted
@@ -30,3 +30,13 @@ state | State where research was conducted
 category | Research category
 cash_fine | Fine paid by cash
 online_fine | Fine paid online
+
+### Analysis
+Using the given data, perform the following operations and obtain the result:
+* Standardise the mail_sent_date column values to YYYY-MM-DD standard date format
+* The year in which maximum number of emails were sent to doctors
+* Total fine paid per Office
+* Get the highest total fine and lowest total fine paid per state
+* The least 2 states that had to pay minimum 'online' fine
+* The number of doctors that contributed to the state having highest 'cash' fine
+* Get the top 5 average fine paid per state and category
